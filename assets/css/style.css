@@ -1,0 +1,177 @@
+/*----------------------------------------------------------------
+                      Informasi                                  |
+------------------------------------------------------------------
+Nama Template : Informasi Tentang Covid - 19                     |
+Author        : Andre Tri Ramadana                               |
+Version       : 1.0                                              |
+Copyright     : (c) 2020 App Landing. All rights reserved.       |
+-----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+                      Struktur Css                               |  
+-----------------------------------------------------------------
+1. import google font CSS                                        |
+2. animate CSS                                                   |
+3. Bootstrap CSS                                                 |
+4. icofont CSS                                                   |
+5. swiper CSS                                                    |
+6. FontAwesome CSS                                               | 
+7. Default CSS                                                   |
+8. Banner Informasi CSS                                          |
+9. About  CSS                                                    | 
+10. footer CSS                                                   |
+-----------------------------------------------------------------*/
+
+/* google font CSS*/
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap';
+/*End Import Google Font CSS*/
+
+/*animate CSS*/
+@import 'animate.css';
+/*End animate CSS*/
+
+/*Bootstrap CSS*/
+@import 'bootstrap.css';
+/*End Bootstrap CSS*/
+
+/*icofont CSS*/
+@import 'icofont.min.css';
+/*End icofont CSS*/
+
+/*swiper CSS*/
+@import 'swiper.min.css';
+/*End swiper CSS*/
+
+/*Font Awesome*/
+@import '../font/fontawesome/css/all.css';
+/*End Font Awesome*/
+
+
+
+
+/*Default CSS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    line-height: 1.8;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+/*Default CSS*/
+
+/*Banner Informasi*/
+h2{
+    font-size: 3em;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 8px 0 8px 20px;
+}
+
+h4{
+    padding: 8px 0 8px 20px;
+}
+
+.count-people{
+    color: rgb(131, 120, 196);
+}
+
+.banner-round{
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    padding: 30px 10px 20px;
+    position: relative;
+}
+
+@-webkit-keyframes spin {
+  from {
+	-webkit-transform: rotate(0deg);
+  }
+  to {
+	-webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+	-moz-transform: rotate(0deg);
+  }
+  to {
+	-moz-transform: rotate(360deg);
+  }
+}
+
+#putar {
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 26s;
+    animation-play-state: running;
+        
+    -webkit-animation-name: spin;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 26s;
+    -webkit-animation-play-state: running;
+        
+    -moz-animation-name: spin;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-duration: 26s;
+    -moz-animation-play-state: running;
+}
+
+
+.li{
+    color: green;
+}
+/*End Banner Informasi*/
+
+
+/*About*/
+.about-section{
+  padding-top: 10em;  
+}
+
+
+
+.ab-thumb{
+  padding: 10px;
+  max-width: 100px;
+  text-align:justify;
+}
+/*End About*/
+
+
+/*Footer*/
+footer, .section-wrapper{
+  padding-top: 100px;
+  padding-bottom: 1px;
+}
+/*End Footer*/
